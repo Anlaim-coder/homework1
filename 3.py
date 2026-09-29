@@ -6,6 +6,6 @@ password_symbols = r.choices("!@#$%^&*",k=2)
 
 password = password_letters + password_numbers + password_symbols
 r.shuffle(password)
-password="".join(password)
+password = "".join(password)
 
 print(password)
