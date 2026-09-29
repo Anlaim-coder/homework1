@@ -1,13 +1,13 @@
-number=int(input())
+number = int(input())
 
-if number%2==0:
+if number % 2 == 0:
     print("Четное")
 else:
     print("Нечетное")
 
-if number>0:
+if number > 0:
     print("Положительное")
-elif number<0:
+elif number < 0:
     print("Отрицательное")
 else:
     print("Ноль")
